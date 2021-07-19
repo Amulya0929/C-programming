@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+     double x,result;
+     printf("Enter x(fractional value ):\n");     
+     scanf("%lf",&x);
+	 printf("1-x/2 +x^2/4-x^3/6 = ");     
+	 result = (1-x/2+(x*x)/4-(x*x*x)/6);
+	
+	printf("%lf",result);
+}
